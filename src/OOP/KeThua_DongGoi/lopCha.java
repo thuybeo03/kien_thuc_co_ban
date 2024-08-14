@@ -1,4 +1,4 @@
-package OOP;
+package OOP.KeThua_DongGoi;
 
 public class lopCha {
     private String ten;

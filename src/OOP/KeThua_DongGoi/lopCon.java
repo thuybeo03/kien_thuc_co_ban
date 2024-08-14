@@ -1,6 +1,6 @@
-package OOP;
+package OOP.KeThua_DongGoi;
 
-public class lopCon extends lopCha{
+public class lopCon extends lopCha {
     private String lopHoc;
 
     public lopCon() {
