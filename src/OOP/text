@@ -1,0 +1,6 @@
+public: truy cập ở bất cứ đâu
+private: chỉ truy cập trong 1 class
+default: chỉ truy cập trong package
+protected: chỉ truy cập được trong package and những class con kế thừa có thể truy cập được
+Đa hình tĩnh: Được thực hiện trong một lớp, thường là nạp chồng phương thức.
+Đa hình động: Liên quan đến nhiều lớp, thường là ghi đè phương thức trong các lớp kế thừa.
