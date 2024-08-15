@@ -16,7 +16,7 @@ public class Main {
         daHInhTinh.show(100);                // Hiển thị số nguyên
         daHInhTinh.show(123.45);             // Hiển thị số thực
         daHInhTinh.show("Hello, World!");    // Hiển thị chuỗi
-
+        System.out.println();
     }
 
 }
