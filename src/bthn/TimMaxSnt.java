@@ -1,5 +1,7 @@
 package bthn;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class TimMaxSnt {
     public static void main(String[] args) {
         int[] nums = {  3, 5, 7, 13, 17, 23, 29 };
@@ -24,4 +26,5 @@ public class TimMaxSnt {
         }
         return true;
     }
+//    aa
 }
