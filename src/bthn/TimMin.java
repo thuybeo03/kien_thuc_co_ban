@@ -7,8 +7,8 @@ public class TimMin {
         int[] mang = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 40, 60, 100};
         int a = 5;
         int b = 10;
-        int min = (a <= b) ? a : b;
-        int max = (a >= b) ? a : b;
+        int min = min(a, b);
+        int max = max(a, b);
         int maxx = 0;
         int minn = Integer.MAX_VALUE;
 
@@ -41,6 +41,21 @@ public class TimMin {
         System.out.println("Min số chẵn:" + minn);
     }
 
+    public static int min(int a, int b) {
+        if (a > b) {
+            return a;
+        } else {
+            return b;
+        }
+    }
+
+    public static int max(int a, int b) {
+        if (a < b) {
+            return a;
+        } else {
+            return b;
+        }
+    }
 
     // tim max la so chan trong mang -> ve ra paint
     // tim min la so chan trong mang -> ve ra paint
