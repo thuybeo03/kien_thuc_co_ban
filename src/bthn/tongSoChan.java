@@ -10,35 +10,22 @@ public class tongSoChan {
         for (int i = 0; i < mang.length; i++) {
             if (mang[i] % 2 == 0) {
                 tong += mang[i];
-
             }
-
         }
         for (int i = 0; i < mang.length; i++) {
             if (mang[i] % 2 == 0) {
                 soChan++;
-
             }
-
         }
         for (int i = 0; i < mang.length; i++) {
             if (mang[i] % 2 == 0 && mang[i] < 500) {
                 soChan1++;
-
             }
-
-        } for (int i = 0; i < mang.length; i++) {
-            if (mang[i] % 2 == 0 && mang[i] < 500) {
-                soChan1++;
-
-            }
-
-        }for (int i = 0; i < mang.length; i++) {
+        }
+        for (int i = 0; i < mang.length; i++) {
             if (mang[i] % 2 == 0 ) {
                 soChan2 = mang[i];
-
             }
-
         }
         System.out.println("Tổng số chẵn: " + tong);
         System.out.println("So luong số chẵn: " + soChan);
